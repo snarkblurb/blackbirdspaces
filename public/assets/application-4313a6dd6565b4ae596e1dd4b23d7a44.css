@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@font-face {
+  font-family: 'mojave';
+  src: url(/assets/Mohave/Mohave.otf);
+}
+@font-face {
+  font-family: 'matchmaker';
+  src: url(/assets/Matchmaker/Matchmaker-Regular.ttf);
+}
+/* line 16, /Users/zakkoltun/Dropbox/Documents/rails_projects/blackbirdspaces/app/assets/stylesheets/custom.css.scss */
+.header {
+  margin-top: 60px;
+}
+
+/* line 20, /Users/zakkoltun/Dropbox/Documents/rails_projects/blackbirdspaces/app/assets/stylesheets/custom.css.scss */
+#logo {
+  margin: 0 auto 50px auto;
+  width: 104px;
+}
+
+/* line 25, /Users/zakkoltun/Dropbox/Documents/rails_projects/blackbirdspaces/app/assets/stylesheets/custom.css.scss */
+h1 {
+  text-align: center;
+  font-family: matchmaker;
+  font-size: 3em;
+  color: #242021;
+}
