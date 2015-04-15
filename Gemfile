@@ -25,7 +25,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   gem 'rails-erd', :git => 'https://github.com/ready4god2513/rails-erd.git',
                    :branch => 'rails-4.2-support-fix'
