@@ -1,0 +1,12 @@
+/* Webfont: BurfordExtrudeAShadow */@font-face {
+    font-family: 'BurfordExtrudeAShadow';
+    src: url('BurfordExtrudeAShadow.eot'); /* IE9 Compat Modes */
+    src: url('BurfordExtrudeAShadow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BurfordExtrudeAShadow.woff') format('woff'), /* Modern Browsers */
+         url('BurfordExtrudeAShadow.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BurfordExtrudeAShadow.svg#BurfordExtrudeAShadow') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

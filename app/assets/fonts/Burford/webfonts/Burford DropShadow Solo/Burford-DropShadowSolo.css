@@ -1,0 +1,12 @@
+/* Webfont: Burford-DropShadowSolo */@font-face {
+    font-family: 'BurfordDropShadowSolo';
+    src: url('Burford-DropShadowSolo.eot'); /* IE9 Compat Modes */
+    src: url('Burford-DropShadowSolo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Burford-DropShadowSolo.woff') format('woff'), /* Modern Browsers */
+         url('Burford-DropShadowSolo.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Burford-DropShadowSolo.svg#Burford-DropShadowSolo') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

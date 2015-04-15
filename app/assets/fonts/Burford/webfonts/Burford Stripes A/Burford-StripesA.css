@@ -1,0 +1,12 @@
+/* Webfont: Burford-StripesA */@font-face {
+    font-family: 'BurfordStripesA';
+    src: url('Burford-StripesA.eot'); /* IE9 Compat Modes */
+    src: url('Burford-StripesA.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Burford-StripesA.woff') format('woff'), /* Modern Browsers */
+         url('Burford-StripesA.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Burford-StripesA.svg#Burford-StripesA') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
