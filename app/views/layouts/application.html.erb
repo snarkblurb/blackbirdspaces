@@ -15,14 +15,16 @@
 			<%= image_tag "BlackbirdSpacesLogoAlt1.png" %>
 			-->
 		</div>
-		<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
+		<%= link_to root_path do %>
+			<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
+		<% end %>
 	</div>
 
 	<div id="main-nav">
 		<ul>
 			<%= nav_link_to "home", root_path, {}, wrapper: 'li' %>
-			<%= nav_link_to "shop", shop_path, {}, wrapper: 'li' %>
-			<%= nav_link_to "blog", blog_path, {}, wrapper: 'li' %>
+			<%= nav_link_to "store", store_path, {}, wrapper: 'li' %>
+			<%= nav_link_to "punderings", blog_path, {}, wrapper: 'li' %>
 			<%= nav_link_to "about", about_path, {}, wrapper: 'li' %>
 		</ul>
 	</div>

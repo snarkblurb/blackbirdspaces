@@ -2,8 +2,9 @@
 // Variables
 
 $light-black: #242021;
-$gold: #d5af2f;
-
+//$gold: #d5af2f;
+$gold: #e69c39;
+$gray: #a4a4a4;
 
 
 // Content
@@ -13,6 +14,9 @@ $gold: #d5af2f;
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
 
 .header {
 	margin: 140px 0 40px 0;
@@ -43,14 +47,14 @@ h1 {
 #main-nav {
 
 	margin-bottom: 30px;
-	//border-bottom: solid 1px $gold;
+	border-bottom: solid 1px #c7c7c7;
 
 	ul {
 		list-style: none;
 		width: 100%;
 		text-align: center;
 		text-decoration: none;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 
 		li {
 			margin: 0 3%;
@@ -59,13 +63,14 @@ h1 {
 			font-size: 1em;
 
 			a, a:visited {
-				color: #b2b2b2;
+				//color: #b2b2b2;
+				color: $gold;
 				text-decoration: none;
 				transition: color .2s;
 			}
 
 			a:hover {
-				color: $light-black;
+				color: $gray;
 			}
 		}
 
@@ -75,5 +80,13 @@ h1 {
 			}
 		}
 	}
+}
+
+
+.large-img-container {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin: 50px 0 100px 0;
 }
 

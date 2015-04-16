@@ -1,7 +1,7 @@
 Blackbirdspaces::Application.routes.draw do
 	root 'static_pages#home'
 
-	get 'shop' => 'static_pages#shop'
+	get 'store' => 'static_pages#store'
 	get 'blog' => 'static_pages#blog'
 	get 'about' => 'static_pages#about'
 
