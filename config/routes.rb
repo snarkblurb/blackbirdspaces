@@ -1,6 +1,10 @@
 Blackbirdspaces::Application.routes.draw do
 	root 'static_pages#home'
 
+	get 'shop' => 'static_pages#shop'
+	get 'blog' => 'static_pages#blog'
+	get 'about' => 'static_pages#about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

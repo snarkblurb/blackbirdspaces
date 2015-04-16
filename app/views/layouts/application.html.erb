@@ -2,14 +2,32 @@
 <html>
 <head>
 	<title>Blackbird Spaces</title>
-	<%= favicon_link_tag 			 "BlackbirdSpacesLogo.png" %>
+	<%= favicon_link_tag 			 "BlackbirdSpacesLogoAlt1Background.png" %>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<div class="header">
+		<div id="logo">
+			<!--
+			<%= image_tag "BlackbirdSpacesLogoAlt1.png" %>
+			-->
+		</div>
+		<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
+	</div>
+
+	<div id="main-nav">
+		<ul>
+			<%= nav_link_to "home", root_path, {}, wrapper: 'li' %>
+			<%= nav_link_to "shop", shop_path, {}, wrapper: 'li' %>
+			<%= nav_link_to "blog", blog_path, {}, wrapper: 'li' %>
+			<%= nav_link_to "about", about_path, {}, wrapper: 'li' %>
+		</ul>
+	</div>
+	
+	<%= yield %>
 
 </body>
 </html>
