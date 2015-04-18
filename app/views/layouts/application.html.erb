@@ -8,28 +8,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-	<div class="header">
-		<div id="logo">
-			<!--
-			<%= image_tag "BlackbirdSpacesLogoAlt1.png" %>
-			-->
+	<div id="whole-page">
+		<div class="header">
+			<%= link_to root_path do %>
+				<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
+			<% end %>
 		</div>
-		<%= link_to root_path do %>
-			<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
-		<% end %>
-	</div>
 
-	<div id="main-nav">
-		<ul>
-			<%= nav_link_to "home", root_path, {}, wrapper: 'li' %>
-			<%= nav_link_to "store", store_path, {}, wrapper: 'li' %>
-			<%= nav_link_to "blog", blog_path, {}, wrapper: 'li' %>
-			<%= nav_link_to "about", about_path, {}, wrapper: 'li' %>
-		</ul>
-	</div>
-	
-	<%= yield %>
+		<div id="main-nav">
+			<ul>
+				<%= nav_link_to "home", root_path, {}, wrapper: 'li' %>
+				<%= nav_link_to "store", store_path, {}, wrapper: 'li' %>
+				<%= nav_link_to "blog", blog_path, {}, wrapper: 'li' %>
+				<%= nav_link_to "about", about_path, {}, wrapper: 'li' %>
+			</ul>
+		</div>
+		
+		<div id="main-content">
+			<%= yield %>
+		</div>
 
+		<footer>
+			<div id="footer-links">
+				<%= link_to "Instagram", "https://instagram.com/blackbirdspaces/", target: "_blank" %>
+				<span> | </span>
+				<%= link_to "Facebook", "https://www.facebook.com/helloblackbirdspaces?fref=ts",
+						target: "_blank" %>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
