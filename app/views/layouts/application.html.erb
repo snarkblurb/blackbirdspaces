@@ -10,13 +10,15 @@
 <body>
 	<div id="whole-page">
 		<div class="header">
-			<div id="logo">
-				<%= image_tag "BlackbirdSpacesLogoCute.png" %>
+			<div id="header-content">
+				<%= link_to root_path do %>
+					<div id="logo">
+						<%= image_tag "BlackbirdSpacesLogoCute.png" %>
+					</div>
+					
+					<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
+				<% end %>
 			</div>
-			
-			<%= link_to root_path do %>
-				<h1><span class="swash">P</span>blackbird spaces<span class="swash">O</span></h1>
-			<% end %>
 		</div>
 
 		<div id="main-nav">
