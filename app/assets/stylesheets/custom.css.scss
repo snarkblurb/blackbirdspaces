@@ -39,7 +39,7 @@ a {
 }
 
 .header {
-	margin: 140px 0 40px 0;
+	margin: 120px 0 40px 0;
 	position: relative;
 
 	h1 {
@@ -53,13 +53,14 @@ a {
 
 #header-content {
 	width: 30%;
+	min-width: 740px;
 	margin: 0 auto;
 }
 
 #logo {
 	position: relative;
 	text-align: center;
-	margin: 0 auto 30px auto;
+	margin: 0 auto 20px auto;
 	width: 27%;
 }
 
@@ -74,7 +75,8 @@ h1 {
 }
 
 #main-nav {
-
+	
+	min-width: 740px;
 	border-bottom: solid 1px #c7c7c7;
 
 	ul {
@@ -137,7 +139,7 @@ h1 {
 	}
 
 	p {
-		font-family: proxima-nova;
+		font-family: avenir;
 		text-align: justify;
 		font-size: .9em;
 		margin: 0 auto 20px auto;
