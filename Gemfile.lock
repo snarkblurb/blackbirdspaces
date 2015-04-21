@@ -87,8 +87,6 @@ GEM
     faker (1.4.2)
       i18n (~> 0.5)
     ffi (1.9.8)
-    font-awesome-rails (4.3.0.0)
-      railties (>= 3.2, < 5.0)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -223,7 +221,6 @@ DEPENDENCIES
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
   faker (= 1.4.2)
-  font-awesome-rails
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
   nav_lynx

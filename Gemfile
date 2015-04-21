@@ -19,7 +19,7 @@ gem 'bootstrap-will_paginate', '0.0.10'
 gem 'arel', '6.0.0.beta2'
 gem 'slugalicious'
 gem 'nav_lynx'
-gem 'font-awesome-rails'
+#gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'
