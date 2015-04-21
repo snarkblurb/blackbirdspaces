@@ -3,7 +3,8 @@ ruby '2.1.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.2.0.beta2'
-gem 'sass-rails', '5.0.0.beta1'
+#gem 'sass-rails', '5.0.0.beta1'
+gem 'sass-rails'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
@@ -16,9 +17,9 @@ gem 'faker', '1.4.2'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
-#gem 'slugalicious'
+gem 'slugalicious'
 gem 'nav_lynx'
-#gem 'font-awesome-rails'
+gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'
