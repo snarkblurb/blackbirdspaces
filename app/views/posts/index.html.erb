@@ -1,0 +1,16 @@
+<div class="placeholder">
+	<h1>Posts Index</h1>
+	<p>Find me in app/views/posts/index.html.erb</p>
+	<div id="posts-all">
+		<ul>
+			<% Post.all.each do |post| %>
+				<li>
+					<div class="post-preview">
+						<h2><%= post.title %></h2>
+						<p><%= post.body %></p>
+					</div>
+				</li>
+			<% end %>
+		</ul>
+	</div>
+</div>

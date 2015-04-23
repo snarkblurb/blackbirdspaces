@@ -1,0 +1,14 @@
+<div class="placeholder">
+	<h1>Create Post</h1>
+	<div class="form">
+		<%= form_for [@post] do |f| %>
+			<%= f.label :title %>
+			<%= f.text_field :title %>
+
+			<%= f.label :body %>
+			<%= f.text_area :body %>
+
+			<%= submit_tag "Submit" %>
+		<% end %>
+	</div>
+</div>

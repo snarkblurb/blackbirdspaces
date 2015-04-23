@@ -2,12 +2,15 @@
 
 // Variables
 
-//$light-black: #242021;
 $light-black: #423a33;
 //$gold: #d5af2f;
 $gold: #e69c39;
 $gray: #a4a4a4;
+$med-gray: #c7c7c7;
 $light-gray: #f5f5f5;
+
+$title-font: raleway;
+$body-font: avenir;
 
 
 // Content
@@ -17,9 +20,24 @@ $light-gray: #f5f5f5;
 	padding: 0;
 }
 
+
 html {
 	height: 100%;
 }
+
+
+h1, h2, h3, label {
+	font-family: $title-font;
+}
+
+p {
+	font-family: $body-font;
+}
+
+a {
+	text-decoration: none;
+}
+
 
 body {
 	position: relative;
@@ -35,9 +53,6 @@ body {
 	margin: 0 auto;
 }
 
-a {
-	text-decoration: none;
-}
 
 .header {
 	margin: 120px 0 40px 0;
@@ -90,7 +105,7 @@ h1 {
 		li {
 			margin: 0 2%;
 			display: inline-block;
-			font-family: raleway;
+			font-family: $title-font;
 			font-size: 1em;
 
 			a, a:visited {
@@ -134,13 +149,13 @@ h1 {
 	width: 50%;
 
 	h2 {
-		font-family: raleway;
+		font-family: $title-font;
 		text-align: center;
 		margin-bottom: 30px;
 	}
 
 	p {
-		font-family: avenir;
+		font-family: $body-font;
 		text-align: justify;
 		font-size: .9em;
 		margin: 0 auto 20px auto;
@@ -149,13 +164,35 @@ h1 {
 }
 
 
+.form {
+	label {
+		font-family: $title-font;
+	}
+
+	input, textarea {
+		border: solid 1px $med-gray;
+		transition: border .2s;
+
+		&:focus {
+			outline: none;
+			border: solid 1px $gold;
+		}
+	}
+}
 
 
 .placeholder {
 	position: relative;
-	font-family: raleway;
 	margin-top: 100px;
 	color: $light-black;
+	text-align: center;
+	h1 {
+		font-family: $title-font;
+	}
+
+	p {
+		font-family: $body-font;
+	}
 }
 
 footer {
@@ -166,7 +203,7 @@ footer {
 	padding: 30px 0;
 	margin-top: 50px;
 	font-size: 14px;
-	font-family: raleway;
+	font-family: $title-font;
 	color: $gray;
 	text-align: right;
 
