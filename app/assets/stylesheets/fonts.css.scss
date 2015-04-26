@@ -1,7 +1,23 @@
+@font-face {
+	font-family: 'abril-fatface';
+	src: font-url('AbrilFatface-Regular.otf');
+}
+
+@font-face {
+	font-family: 'avenir';
+	src: font-url('Avenir-LT-45-Book.ttf');
+}
 
 @font-face {
 	font-family: 'avenir';
 	src: font-url('Avenir-LT-65-Medium.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'avenir';
+	src: font-url('Avenir-LT-85-Heavy.ttf');
+	font-weight: 800;
 }
 
 @font-face {
@@ -10,8 +26,23 @@
 }
 
 @font-face {
+	font-family: 'brandon';
+	src: font-url('Brandon_Complete/Brandon_reg.otf');
+}
+
+@font-face {
+	font-family: 'brandon-black';
+	src: font-url('Brandon_Complete/Brandon_blk.otf');
+}
+
+@font-face {
 	font-family: 'karla';
 	src: font-url('karla/Karla-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'lato';
+	src: font-url('lato/Lato-Regular.ttf');
 }
 
 @font-face {
@@ -46,10 +77,13 @@
 
 @font-face {
 	font-family: 'proxima-nova';
-	src: font-url('proxima-nova-regular.otf');
+	src: font-url('ProximaNova/ProximaNova-Regular.otf');
 }
+
 
 @font-face {
 	font-family: 'raleway';
 	src: font-url('raleway/Raleway-Regular.ttf');
 }
+
+

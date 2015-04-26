@@ -4,12 +4,14 @@
 
 $light-black: #423a33;
 //$gold: #d5af2f;
-$gold: #e69c39;
+//$gold: #e69c39;
+//$gold: #f7c614;
+$gold: #f4a713;
 $gray: #a4a4a4;
 $med-gray: #c7c7c7;
 $light-gray: #f5f5f5;
 
-$title-font: raleway;
+$title-font: avenir;
 $body-font: avenir;
 
 
@@ -26,37 +28,63 @@ html {
 }
 
 
+
 h1, h2, h3, label {
 	font-family: $title-font;
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: 800;
 }
 
 p {
 	font-family: $body-font;
 }
 
-a {
-	text-decoration: none;
+ul {
+	list-style: none;
 }
 
+a, a:visited {
+	color: $light-black;
+	text-decoration: none;
+	transition: color 0.2s
+}
+
+a:hover {
+	color: $gold;
+}
 
 body {
 	position: relative;
 	height: 100%;
+	color: $light-black;
 }
 
 #main-content {
 	position: relative;
-	width: 960px;
-	min-height: 400px;
+	min-width: 740px;
+	max-width: 960px;
+	min-height: 500px;
 	padding: 35px 0;
 	padding-bottom: 60px;
 	margin: 0 auto;
 }
 
+#header-container {
+	max-width: 960px;
+	min-width: 740px;
+	margin: 120px auto 40px auto;
+}
 
 .header {
-	margin: 120px 0 40px 0;
 	position: relative;
+	width: 30%;
+	text-align: center;
+	min-width: 400px;
+//	margin: 120px auto 40px auto;
+	margin: 0 auto;
 
 	h1 {
 		text-align: center;
@@ -70,6 +98,7 @@ body {
 #header-content {
 	width: 30%;
 	min-width: 740px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -164,7 +193,11 @@ h1 {
 }
 
 
-.form {
+.form-container {
+	position: relative;
+	width: 67%;
+	margin: 0 auto;
+
 	label {
 		font-family: $title-font;
 	}
@@ -178,26 +211,59 @@ h1 {
 			border: solid 1px $gold;
 		}
 	}
+
+	textarea {
+		position: relative;
+		width: 100%;
+		height: 20em;
+	}
 }
 
-
-.placeholder {
+#posts-all {
 	position: relative;
-	margin-top: 100px;
-	color: $light-black;
-	text-align: center;
-	h1 {
-		font-family: $title-font;
-	}
+	text-align: left;
+	width: 75%;
+	margin: 50px auto;
+}
 
-	p {
-		font-family: $body-font;
+.post-preview {
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+
+	h2 {
+		margin-bottom: 20px;
 	}
 }
+
+.post-preview-table {
+	position: relative;
+	display: inline-block;
+	* {
+		width: 45%;
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
+
+.show-post {
+	width: 740px;
+	margin: 0 auto;
+}
+
+.top {
+	height: 250px;
+}
+
+.paginate {
+	margin-top: 50px;
+}
+
 
 footer {
 	position: absolute;
 	width: 100%;
+	min-width: 960px;
 	height: 60px;
 	background-color: $light-gray;
 	padding: 30px 0;
@@ -221,3 +287,5 @@ footer {
 	}
 
 }
+
+
