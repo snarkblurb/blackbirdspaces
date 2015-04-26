@@ -255,8 +255,22 @@ h1 {
 	height: 250px;
 }
 
-.paginate {
+.pagination {
 	margin-top: 50px;
+	font-family: $body-font;
+	li {
+		display: inline;
+		padding: 0 3px;
+	}
+
+	a, a:visited {
+		color: $gray;
+		transition: color 0.2s;
+
+		&:hover {
+			color: $light-black;
+		}
+	}
 }
 
 
